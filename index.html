@@ -1,1 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Ahead by Dr. AJ Bul | Unlock Your Potential</title>
+    <meta name="description"
+        content="Discover the secrets to strategic thinking and future-proofing your life with Dr. AJ Bul's latest bestseller, 'Plan Ahead'.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Dr. AJ Bul</a>
+            <ul class="nav-links">
+                <li><a href="#about">About the Book</a></li>
+                <li><a href="#journal">Journal</a></li>
+                <li><a href="#author">The Author</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#join" class="btn btn-sm">Get in Touch</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
+                        <span class="icon-sun">☀</span>
+                        <span class="icon-moon">☾</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ... (HERO IS UNCHANGED, but ensuring context matches for replace) ... -->
+
+    <!-- ... Skipping fast forward through existing content to finding the #join to insert after ... -->
+    <!-- Ideally I would target distinct chunks but I need to be precise. -->
+    <!-- Let's assume I am replacing the Nav chunk specifically first, then the Blog chunk separate if possible? -->
+    <!-- Using replace_file_content for a big file is hard with non-contiguous edits. -->
+    <!-- I will do the Navbar change first. -->
+
+    <header class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text fade-in-up">
+                <span class="eyebrow">The New #1 Bestseller</span>
+                <h1>Stop Reacting.<br>Start <span class="highlight">Planning Ahead</span>.</h1>
+                <p class="lead">Master the art of strategic foresight. Dr. AJ Bul’s new guide gives you the blueprint to
+                    conquer uncertainty and design your destiny.</p>
+                <div class="cta-group">
+                    <a href="#buy" class="btn btn-primary">Buy the Book</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-up delay-200">
+                <div class="book-mockup">
+                    <img src="assets/book_cover.png" alt="Plan Ahead Book Cover" id="book-cover-img">
+                    <!-- Fallback if image fails or for design prev -->
+                    <div class="book-spine"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why This Book?</h2>
+                <p>Most people live life in default mode. <em>Plan Ahead</em> switches you to design mode.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="icon">🎯</div>
+                    <h3>Strategic Clarity</h3>
+                    <p>Learn to cut through the noise and identify what truly matters for your long-term success.</p>
+                </div>
+                <div class="feature-card fade-in delay-100">
+                    <div class="icon">🛡️</div>
+                    <h3>Risk Mitigation</h3>
+                    <p>Anticipate obstacles before they appear. Turn potential failures into calculated stepping stones.
+                    </p>
+                </div>
+                <div class="feature-card fade-in delay-200">
+                    <div class="icon">🚀</div>
+                    <h3>Accelerated Growth</h3>
+                    <p>Stop wasting time on dead ends. Create a roadmap that fast-tracks your personal and professional
+                        goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="author" class="section">
+        <div class="container author-content">
+            <div class="author-image fade-in-right">
+                <!-- Placeholder for Author Image -->
+                <div class="placeholder-avatar">Dr. AJ</div>
+            </div>
+            <div class="author-bio fade-in-left">
+                <h2>About Dr. AJ Bul</h2>
+                <p>Dr. AJ Bul is a renowned strategist and behavioral psychologist who has helped Fortune 500 CEOs and
+                    world leaders navigate complex crises.</p>
+                <p>With over two decades of research into decision-making logic, Dr. Bul bridges the gap between
+                    high-level theory and actionable daily practice. <em>Plan Ahead</em> is the culmination of his
+                    life's work.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section bg-dark text-white">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Readers Are Saying</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <p>"A game-changer. I used to just put out fires. Now, I don't even let them start."</p>
+                    <cite>— Sarah J., CEO</cite>
+                </div>
+                <div class="testimonial-card fade-in delay-100">
+                    <p>"Simple, profound, and immediately applicable. Dr. Bul has done it again."</p>
+                    <cite>— Mark T., Entrepreneur</cite>
+                </div>
+                <div class="testimonial-card fade-in delay-200">
+                    <p>"If you read one self-help book this year, make it this one. It actually helps."</p>
+                    <cite>— Elena R., Strategist</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="section glass-section">
+        <div class="container">
+            <div class="split-layout">
+                <div class="split-content fade-in-right">
+                    <span class="eyebrow">The Inner Circle</span>
+                    <h2>Unlock Exclusive Strategic Insights</h2>
+                    <p>Join over 10,000 leaders who receive Dr. Bul's weekly "Strategic Memo". Plus, get a free chapter
+                        of <em>Plan Ahead</em> just for signing up.</p>
+                    <ul class="benefit-list">
+                        <li><span>✓</span> Weekly strategy teardowns</li>
+                        <li><span>✓</span> Early access to workshops</li>
+                        <li><span>✓</span> Direct Q&A opportunities</li>
+                    </ul>
+                </div>
+                <div class="split-form fade-in-left delay-100">
+                    <form id="lead-form" class="premium-form">
+                        <h3>Get Started</h3>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Join the Inner Circle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journal" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Strategy Journal</h2>
+                <p>Read samples from the book and Dr. Bul's latest analysis.</p>
+            </div>
+            <div class="journal-grid">
+                <!-- Featured Sample -->
+                <article class="journal-card featured fade-in">
+                    <div class="card-content">
+                        <span class="card-tag">Book Sample</span>
+                        <h3>Chapter 1: The Myth of Busyness</h3>
+                        <p>Discover why 90% of your daily tasks are actually preventing you from succeeding. Read the
+                            first chapter of <em>Plan Ahead</em> for free.</p>
+                        <a href="#" class="btn-text">Read Chapter →</a>
+                    </div>
+                </article>
+                <!-- Blog Post 1 -->
+                <article class="journal-card fade-in delay-100">
+                    <div class="card-content">
+                        <span class="card-tag">Analysis</span>
+                        <h3>Navigating the AI Revolution</h3>
+                        <p>How to partial-proof your career against automation using strategic foresight.</p>
+                        <a href="#" class="btn-text">Read Article →</a>
+                    </div>
+                </article>
+                <!-- Blog Post 2 -->
+                <article class="journal-card fade-in delay-200">
+                    <div class="card-content">
+                        <span class="card-tag">Case Study</span>
+                        <h3>The $500M Mistake</h3>
+                        <p>A deep dive into a recent corporate failure that could have been avoided.</p>
+                        <a href="#" class="btn-text">Read Article →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="buy" class="cta-section section text-center">
+        <div class="container">
+            <h2 class="fade-in-up">Ready to Commit?</h2>
+            <p class="fade-in-up delay-100">Order your hardcover copy of <em>Plan Ahead</em> today.</p>
+            <a href="#" class="btn btn-outline-gold btn-lg fade-in-up delay-200">Order Now - $29.99</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2024 Dr. AJ Bul. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Media Kit</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
